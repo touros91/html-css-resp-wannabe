@@ -75,23 +75,38 @@ img {
 /* Responsive  */
 
 @media screen and (max-width: 420px) {
-  #lezioni .row h1 {
-    text-align: left;
-    margin-left: 110px;
+  h1 {
+    text-align: center;
   }
+
+  #steps .row, #why .row {
+    background-color: #f9f9f9;
+
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+
   #lezioni .row>.left, #lezioni .row>.right {
     float: none;
+    width: 50%;
+    margin: auto;
   }
 }
 
 @media screen and (max-width: 420px) {
-  #steps .row h1 {
-    text-align: left;
-    margin-left: 150px;
-  }
   #steps .row>.left, #steps .row>.central, #steps .row>.right {
     float: none;
     width: 50%;
+    margin: auto;
   }
 }
 
+@media screen and (max-width: 420px) {
+  #why .row>.first, #why .row>.second, #why .row>.third{
+    width: 50%;
+    margin: auto;
+  }
+}
