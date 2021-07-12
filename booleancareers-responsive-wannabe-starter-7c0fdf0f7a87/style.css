@@ -72,7 +72,7 @@ img {
   clear: both;
 }
 
-/* Responsive  */
+/* Esercizio Responsive  */
 @media screen and (max-width: 420px) {
   h1 {
     text-align: center;
@@ -89,8 +89,12 @@ img {
     margin: auto;
   }
 
-  #steps .row, #why .row {
-    background-color: blue;
+  #lezioni .row {
+    background-color: green;
+  }
+
+  #why .row {
+    background-color: red;
   }
 
   .container.grey {
@@ -124,12 +128,8 @@ img {
     width: 100%;
   }
 
-  #lezioni .row {
-    background-color: green;
-  }
-
-  #why .row {
-    background-color: red;
+  #lezioni .row, #why .row {
+    background-color: lightskyblue;
   }
 
   .container.grey {
