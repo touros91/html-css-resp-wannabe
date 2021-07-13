@@ -73,7 +73,7 @@ img {
 }
 
 /* Esercizio Responsive  */
-@media screen and (min-width: 0px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   * {
     margin: 0;
     padding: 0;
@@ -103,7 +103,7 @@ img {
 }
 
 /* Bonus visualizzazione intermedia per tablet */
-@media screen and (min-width: 421px) and (max-width: 768px) {
+@media screen and (min-width: 421px) and (max-width: 1024px) {
     .row {
     width: 100%;
   }
