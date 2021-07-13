@@ -73,7 +73,7 @@ img {
 }
 
 /* Esercizio Responsive  */
-@media screen and (min-width: 0px) and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: 1024px) {
   * {
     margin: 0;
     padding: 0;
@@ -81,7 +81,6 @@ img {
   }
 }
 
-/* visualizzazione mobile  */
 @media screen and (max-width: 420px) {
   #lezioni .row>.left, #lezioni .row>.right,
   #steps .row>.left, #steps .row>.central, #steps .row>.right {
@@ -100,11 +99,6 @@ img {
 
   .container.grey {
     background-color: transparent;
-  }
-
-  #why .row>.first, #why .row>.second, #why .row>.third{
-    margin: auto;
-    margin-top: 50px;
   }
 }
 
@@ -127,10 +121,5 @@ img {
     float: none;
     margin: auto;
     margin-bottom: 50px;
-  }
-
-  #why .row>.first, #why .row>.second, #why .row>.third{
-    margin: auto;
-    margin-top: 50px;
   }
 }
