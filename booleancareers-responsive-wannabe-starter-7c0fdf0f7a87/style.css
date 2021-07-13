@@ -73,6 +73,15 @@ img {
 }
 
 /* Esercizio Responsive  */
+/* per togliere la scrollbar orizzontale */
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+/* visualizzazione mobile  */
 @media screen and (max-width: 420px) {
   #lezioni .row>.left, #lezioni .row>.right,
   #steps .row>.left, #steps .row>.central, #steps .row>.right {
@@ -92,9 +101,7 @@ img {
   .container.grey {
     background-color: transparent;
   }
-}
 
-@media screen and (max-width: 420px) {
   #why .row>.first, #why .row>.second, #why .row>.third{
     margin: auto;
     margin-top: 50px;
@@ -102,7 +109,7 @@ img {
 }
 
 /* Bonus visualizzazione intermedia per tablet */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 421px) and (max-width: 768px) {
     .row {
     width: 100%;
   }
