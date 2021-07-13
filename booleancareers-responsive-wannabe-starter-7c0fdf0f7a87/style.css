@@ -73,7 +73,6 @@ img {
 }
 
 /* Esercizio Responsive  */
-/* per togliere la scrollbar orizzontale */
 @media screen and (min-width: 0px) and (max-width: 768px) {
   * {
     margin: 0;
@@ -81,6 +80,7 @@ img {
     box-sizing: border-box;
   }
 }
+
 /* visualizzazione mobile  */
 @media screen and (max-width: 420px) {
   #lezioni .row>.left, #lezioni .row>.right,
